@@ -4,17 +4,17 @@ public class PrimeNumber
 {
 	public static void main(String[] args)
 	{
-		Scanner obj=new Scanner(System.in);
+	Scanner obj=new Scanner(System.in);
         int number=obj.nextInt();
-		for(int i=2; i*i<a; i++)
-		{
-			if(a%i==0) 
-				break;
-		}
-		if(i*i>a) 
-			System.out.printf("%d is Prime Number",number);
-		else
-			System.out.println("%d is not a Prime Number",number);
+	for(int i=2; i*i<a; i++)
+	{
+		if(a%i==0) 
+			break;
+	}
+	if(i*i>a) 
+		System.out.printf("%d is Prime Number",number);
+	else
+		System.out.println("%d is not a Prime Number",number);
     }
 }
 
